@@ -2,7 +2,7 @@ public class duplicateNumbers { //중복된 숫자 개수(0레벨)
 	public int solution(int[] array, int n) {
         int answer = 0;
         
-        for(int data : array) {
+        for(int data: array) {
         	if(data == n) {
         		answer++;
         	}
